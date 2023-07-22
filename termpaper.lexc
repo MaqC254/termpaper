@@ -1,0 +1,72 @@
+Multichar_Symbols 
++N !Noun! 
++V !Verb!
++Pr !Pronoun!
+
++Pl !Plural!
++Sg !Singular!
+
++Pv !Plural verb!
++Vsg !Verb Singular!
++Pt !PastTense!
++Prt !Present tense!
+
+
+
+LEXICON Root
+    Noun;
+    Verb;
+    Pronoun;
+
+!Nouns!
+LEXICON Noun
+    mundu ninf;
+    muthamaki ninf;
+    gichiko ninf;
+    kiratu ninf;
+    gikombe ninf;
+
+    !Plurals!
+    mundu+N+Pl:andu #;
+    muthamaki+N+Pl:athamaki #;
+    gichiko+N+Pl:iciko #;
+    kiratu+N+Pl:iratu #;
+    gikombe+N+Pl:ikombe #;
+
+!Verbs!
+LEXICON Verb
+    rira vinf;
+    tengera vinf;
+    hingura vinf;
+    humuka vinf;
+    hungura vinf;
+
+
+    !Past tense!
+    rira+V+Pt:ririre #;
+    tengera+V+Pt:tengerire #;
+    hingura+V+Pt:hingurire #;
+    humuka+V+Pt:humukire #;
+    hungura+V+Pt:hungurire #;
+    
+!Pronouns!
+LEXICON Pronoun
+    !First person!
+    nie+Pr+Pl:ithue #;
+
+    !Second person!
+    we+Pr+Pl:inyue #;
+
+    !Third person!
+    ucio+Pr+Pl:acio #;
+    
+
+LEXICON ninf
+    !Singular noun!
+    +N+Sg:0  #;
+
+LEXICON vinf
+    !Singular verb!
+    +V+Vsg:0 #;
+    !Plural verb!
+    +V+Pv:i #;
